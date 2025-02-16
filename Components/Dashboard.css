@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+}
+
+.dashboard {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #4b56d2;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar li.active {
+  background-color: #6c75f2;
+  border-radius: 5px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header .bell-icon {
+  font-size: 24px;
+}
+
+.header .admin-user {
+  font-weight: bold;
+}
+
+.overview {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card p {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.card span {
+  font-size: 14px;
+  color: green;
+}
+
+.activity {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.recent-activity,
+.pending-approvals {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recent-activity h3,
+.pending-approvals h3 {
+  margin-bottom: 10px;
+}
+
+.recent-activity ul,
+.pending-approvals ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recent-activity li,
+.pending-approvals li {
+  margin-bottom: 10px;
+}
+
+.pending-approvals button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pending-approvals button:first-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+.pending-approvals button:last-child {
+  background-color: #f44336;
+  color: white;
+}
+/* Add this to your Dashboard.css */
+.logout-btn {
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+}

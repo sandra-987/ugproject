@@ -1,0 +1,44 @@
+/* UserManagement.css */
+
+/* General table styling */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders to create lines */
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd; /* Add borders to table cells */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Light grey background for headers */
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Add alternate row color */
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1; /* Hover effect for rows */
+  }
+  
+  h3 {
+    margin-bottom: 15px;
+  }
+  
+  .item-details {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  

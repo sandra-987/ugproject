@@ -1,0 +1,17 @@
+/* src/components/Footer.css */
+.landing-footer {
+    background: rgba(135deg, #1e3c72, #2a5298);
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    color: #ddd;
+  }
+  
+  .contact-info strong {
+    color: #fff;
+  }
+  
